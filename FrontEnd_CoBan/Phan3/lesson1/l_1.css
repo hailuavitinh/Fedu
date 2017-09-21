@@ -1,0 +1,16 @@
+article {
+    width: 211px;
+    height: 188px;
+}
+
+img {
+    width: 211px;
+}
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    display: block;
+}
