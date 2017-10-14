@@ -6,6 +6,7 @@
     width: 900px;
     margin: auto;
     background-color: lightblue;
+    display: flex;
 }
 
 .k1{

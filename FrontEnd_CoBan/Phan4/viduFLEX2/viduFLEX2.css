@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a.k1 {
+    display: block;
+    width:563px;
+    height: 365px;
+    background-image: url(imgs/img1.jpg);
+    background-size: cover;
+}
