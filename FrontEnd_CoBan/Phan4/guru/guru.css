@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    width: 1120px;
+}
+
+a.khoivuongnho {
+    height: 210px;
+    width: 280px;
+    background-color: green;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+a.khoivuongnho.tohon{
+    width: 560px;
+    height: 420px;
+}
+
+a.khoivuongnho .layer1{
+    width: 280px;
+}
+
+a.khoivuongnho.tohon .layer1{
+    width: 560px;;
+}
+
+
+a.khoivuongnho .layer2{
+    width: 280px;
+    height: 210px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: 2;
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.38),rgba(0, 0, 0, 0.14));
+    transition: 0.4s;
+}
+a.khoivuongnho.tohon .layer2{
+    width: 560px;
+    height: 420px;
+}
+
+a.khoivuongnho .layer2:hover {
+    opacity: 0;
+}
+
+a.khoivuongnho .layer3{
+    position: absolute;
+    padding: 8px 13px;
+    bottom: -50px;
+    left: 0px;
+    z-index: 3;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Tahoma;
+
+    transition: 0.4s;
+}
+
+a.khoivuongnho.tohon .layer3{
+    font-size: 20px;
+}
+
+a.khoivuongnho:hover .layer3{
+    bottom: 10px;
+}
