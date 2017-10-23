@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lefttoggle li {
+    /* color: white; */
+    list-style: none;
+}
+
+ul.lefttoggle li a {
+    color: white;
+}
