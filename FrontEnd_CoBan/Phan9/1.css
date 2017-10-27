@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.carousel-caption{
+    bottom: 3rem;
+}
+
+@media (min-width: 40em){ .carousel-caption p {
+    margin-bottom:1.25rem;
+    font-size:1.35rem;
+    line-height:1.4;
+}
+}
