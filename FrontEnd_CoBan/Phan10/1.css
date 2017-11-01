@@ -3,10 +3,56 @@
     padding: 0;
 }
 
+.col-sm-6.showSlide h1 {
+    font-size: 60px;
+    line-height: 1.5;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+a.btn.btn-outline-secondary.nutxem {
+    border-radius: 0px;
+    color: #a99a9a;
+}
+
+a.btn.btn-outline-secondary.nutxem:hover {
+    background-color: white;
+    color: #312e2e;
+}
+
+a.navbar-brand {
+    padding-top: 80px;
+    /* height: 35px; */
+}
+
+
 .menutop{
     background-color: transparent;
 }
 
 .logonho{
-    height: 34px;
+    height: 45px;
+    width: 225px;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: gray;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 98px;
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: white;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+@media (max-width:576px){
+    * {}
+    
 }
