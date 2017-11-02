@@ -52,7 +52,52 @@ a.navbar-brand {
     text-align: center;
 }
 
+button.navbar-toggler.navbar-toggler-right:hover {
+    background-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");    
+}
+
 @media (max-width:576px){
     * {}
-    
+}
+
+@media (max-width: 767px){
+    * {}
+
+.col-sm-6.showSlide h1 {
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    padding-top: 13px;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+    border-color: white;
+}
+.menutop {
+    background-color: #323C46;
+}
+
+img.logonho {
+    height: 34px;
+    width: 160px;
+}
+
+a.navbar-brand {
+    padding-top: 4px;
+}
+
+.container {
+    width: 100%;
+}
 }
